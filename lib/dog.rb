@@ -10,6 +10,9 @@ class Dog
     save
   end
   
+  
+  
+  
   def self.all 
     @@all
   end
@@ -23,9 +26,7 @@ class Dog
       puts "#{dog.name}"
   end
     
-  def save
-     @@all<< self
-  end 
+  
   
   
 end
