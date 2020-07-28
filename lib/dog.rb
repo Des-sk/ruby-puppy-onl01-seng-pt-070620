@@ -1,1 +1,5 @@
-# Add your code here
+class Dog 
+  
+  def initililze(name)
+    @name=name
+  end
